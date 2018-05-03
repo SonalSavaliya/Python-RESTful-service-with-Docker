@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  #movies {
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  #movies td, #movies th {
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+
+  #movies tr:nth-child(even){background-color: #f2f2f2;}
+
+  #movies tr:nth-child(odd){background-color: white;}
+
+  #movies th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #330066;
+      color: white;
+  }
+  #main {
+  margin:110px;
+  margin-top: auto;
+  height: -webkit-fill-available;
+  }
+  body {
+  background: linear-gradient(to top right, #9966ff 0%, #33cccc 100%);
+  }
+  #not_found{
+    text-align: center;
+  }
+  #header{
+ color: firebrick;
+   font-family: cursive;
+   font-variant: petite-caps;
+   font-size: 50px;
+ }
+</style>
+</head>
+<body>
+<div id="main">
+<h1 id="header">Movies List</h1>
+<table id="movies">
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Director</th>
+    <th>Category</th>
+    <th>Release</th>
+    <th>Box_office</th>
+  </tr>
+  {% if list %}
+  {% for item in list %}
+  <tr>
+    <td>{{ item.id }}</td>
+    <td>{{ item.title }}</td>
+    <td>{{ item.director}}</td>
+    <td>{{ item.category}}</td>
+    <td>{{ item.release }}</td>
+    <td>{{ item.box_office}}</td>
+  </tr>
+  {% endfor %}
+  {% else %}
+  <tr>
+    <td id="not_found" colspan="6">Content not found</td>
+  </tr>
+  {% endif %}
+</table>
+</div>
+</body>
+</html>
