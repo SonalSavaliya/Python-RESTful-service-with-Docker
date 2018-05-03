@@ -1,0 +1,122 @@
+{
+    "data" : [{
+		"id" : 1,
+    "title": "Logan",
+    "director": "James Mangold",
+    "category": "Drama/Science fiction film",
+    "release": 2017,
+    "box_office": "619 million USD"
+    },{
+		"id" : 2,
+    "title": "Hidden Figures",
+    "director": "Theodore Melfi",
+    "category": "Drama/History",
+    "release": 2016,
+    "box_office": "236 million USD"
+    },{
+		"id" : 3,
+    "title": "Jurassic Park",
+    "director": "Steven Spielberg",
+    "category": "Fantasy/Science fiction film",
+    "release": 1993,
+    "box_office": "63 million USD"
+    },{
+		"id" : 4,
+    "title": "The Lord of the Rings",
+    "director": "Peter Jackson",
+    "category": "Fantasy/Action film",
+    "release": 2001,
+    "box_office": "93 million USD"
+    },{
+		"id" : 5,
+    "title": "Star Wars: The Force Awakens",
+    "director": "J.J. Abrams",
+    "category": "Fantasy/Science fiction film",
+    "release": 2015,
+    "box_office": "2.066 billion USD"
+    },{
+		"id" : 6,
+    "title": "Everest",
+    "director": "Baltasar Kormákur",
+    "category": "Drama/Disaster Film",
+    "release": 2015,
+    "box_office": "203.4 million USD"
+    },{
+		"id" : 7,
+    "title": "Moana",
+    "director": "Ron Clements, John Musker",
+    "category": "Fantasy/Adventure Film",
+    "release": 2016,
+    "box_office": "643.3 million USD"
+    },{
+		"id" : 8,
+    "title": "Inside Out",
+    "director": "Pete Docter, Ronnie del Carmen",
+    "category": "Fantasy/Comedy-drama film",
+    "release": 2015,
+    "box_office": "857.6 million USD"
+    },{
+		"id" : 9,
+    "title": "Avatar",
+    "director": "James Cameron",
+    "category": "Fantasy/Science fiction film",
+    "release": 2009,
+    "box_office": "2.788 billion USD"
+    },{
+		"id" : 10,
+    "title": "The Pursuit of Happyness",
+    "director": "Gabriele Muccino",
+    "category": "Drama/Biography",
+    "release": 2006,
+    "box_office": "307.1 million USD"
+    },{
+		"id" : 11,
+    "title": "127 Hours",
+    "director": "Danny Boyle",
+    "category": "Drama/Thriller",
+    "release": 2010,
+    "box_office": "60.7 million USD"
+    },{
+		"id" : 12,
+    "title": "Titanic",
+    "director": "James Cameron",
+    "category": "Drama/Disaster",
+    "release": 1997,
+    "box_office": "2.187 billion USD"
+    },{
+		"id" : 13,
+    "title": "Furious 7",
+    "director": "James Wan",
+    "category": "Action Film",
+    "release": 2015,
+    "box_office": "$1.516 billion USD"
+    },{
+		"id" : 14,
+    "title": "Dunkirk",
+    "director": "Christopher Nolan",
+    "category": "Drama/Thriller",
+    "release": 2017,
+    "box_office": "527.3 million USD"
+    },{
+		"id" : 15,
+    "title": "Get Out",
+    "director": "Jordan Peele",
+    "category": "Mystery/Disaster",
+    "release": 2017,
+    "box_office": "2.187 billion USD"
+    },{
+		"id" : 16,
+    "title": "The Imitation Game",
+    "director": "Morten Tyldum",
+    "category": "Drama/Thriller",
+    "release": 2014,
+    "box_office": "233.5 million USD"
+    },{
+		"id" : 17,
+    "title": "Hot Fuzz",
+    "director": "Edgar Wright",
+    "category": "Drama/Parody",
+    "release": 2007,
+    "box_office": "80.7 million USD"
+    }]
+}
