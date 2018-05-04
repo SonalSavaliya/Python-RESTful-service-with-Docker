@@ -1,6 +1,6 @@
 # Python-RESTful-service-with-Docker
 
-Created a Python RESTful services using Flask and use docker to run this this application.
+Created a Python RESTful services using Flask and use docker to run this application.
 
 Docker Installation, install Dockertoolbox for windows: https://docs.docker.com/toolbox/toolbox_install_windows/ 
 
